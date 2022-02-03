@@ -4,7 +4,7 @@ a) Com suas palavras defina o que é um sistema de controle de versões (VCS)
 
     É um software que tem a finalidade de gerenciar diferentes versões no desenvolvimento de um documento qualquer.Esses sistemas são comumente utilizados no desenvolvimento de software para controlar as diferentes versões de histórico e desenvolvimento.  É útil, em diversos aspectos, tanto para projetos pessoais pequenos e simples como também para grandes projetos comerciais.
 
-b) Cite 5 vantagens em utilizar um VCS:
+#### b) Cite 5 vantagens em utilizar um VCS:
 
 1- 
 Controle do histórico: facilidade em desfazer e possibilidade de analisar o histórico do desenvolvimento, como também facilidade no resgate de versões mais antigas e estáveis. A maioria das implementações permitem analisar as alterações com detalhes, desde a primeira versão até a última.
@@ -18,7 +18,7 @@ Trabalho em equipe: um sistema de controle de versão permite que diversas pesso
 
 5-Organização: Alguns softwares disponibilizam uma interface visual onde podem ser vistos todos os arquivos controlados, desde a origem até o projeto por completo.
 
-c) Cite 3 exemplos de VCS: 
+#### c) Cite 3 exemplos de VCS: 
 
  - [CVS](https://www.nongnu.org/cvs/) 
  - [Mercurial](https://pythonhosted.org/sc.dev.core/vcs/mercurial.html)
