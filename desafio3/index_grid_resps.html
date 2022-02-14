@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<style>
+    * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+        width: 100%;
+        height: 100%;
+    }
+
+    .container {
+        background: black;
+        height: 100vh;
+        width: 100vw;
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr 1fr;
+        grid-template-rows: 1fr 1fr;
+
+        grid-gap: 5px;
+    }
+
+
+    .container>div {
+        background: #7159c1;
+
+    }
+
+    h2 {
+        height: 100px;
+    }
+</style>
+
+<body>
+    <div class="container">
+
+        <div>
+            <h2>a) Explique o que é o Grid Layout.</h2>
+
+            <p> Os grids consiste em um elemento técnico que é constituído por linhas verticais e horizontais ou
+                quadrados e
+                retângulos. Eles são utilizados para proporcionar uma estrutura de construção de peças de design para
+                web ou
+                impressão.</p>
+        </div>
+        <div>
+            <h2> b) Cite e dê exemplos das propriedades do Grid Container?</h2>
+            <p>
+                Display: Cria-se um grid container com as declarações CSS display: grid ou display:
+
+                Grid-template-rows: Cria 4 linhas no grid, sendo a primeira com 50px, segunda 100px, terceira 50px e
+                quarta 150px. Caso o grid necessite de mais linhas, elas terão o tamanho de acordo com o conteúdo.
+
+                grid-template-areas
+                Define áreas específicas no grid. O ponto (.) pode ser utilizado para criar áreas vazias.
+
+                grid-template: Atalho para definir o grid-template-columns, grid-template-rows e grid-template-areas.
+
+                gap
+                Define o gap (gutter) entre os elementos do grid.
+
+                grid-auto-columns
+                Define o tamanho das colunas do grid implícito (gerado automaticamente, quando algum elemento é
+                posicionado em uma coluna que não foi definida).
+
+                grid-auto-rows
+                Define o tamanho das linhas do grid implícito (gerado automaticamente, quando algum elemento é
+                posicionado em uma linha que não foi definida).
+            </p>
+        </div>
+        <div>
+            <h2> c) Cite e dê exemplos das propriedades do Grid Item?</h2>
+            <p>
+                grid-column
+                Define quais colunas serão ocupadas pelo grid item. É possível definir uma linha de início e final,
+                assim o item irá ocupar múltiplas colunas.
+
+                grid-row
+                Define quais linhas serão ocupadas pelo grid item.
+                Atenção aqui, pois esse linha é referente a row. Porém as chamadas grid lines que por tradução também
+                significam linhas do grid, são diferentes. Uma row (linha), possui sempre 2 grid lines (linhas do grid),
+                uma no início dela e uma no final dela.
+
+                grid-area
+                Define a área do item do grid. É um atalho para grid-row-start, grid-column-start, grid-row-end,
+                grid-column-end.
+                O z-index pode ser utilizado para manipular a posição no eixo Z do item. Ou seja, se um item for
+                posicionado em cima de outro, o z-index controla qual vêm na frente.
+
+                justify-self:
+                Justifica o item do grid em relação ao eixo x (horizontal). Justifica em relação a célula.
+
+                align-self
+                Justifica o item do grid em relação ao eixo y (vertical). Alinha em relação a célula.
+            </p>
+        </div>
+        <div>
+            <h2>d) O que é a unidade fr?</h2>
+            <p>
+                A unidade fr representa uma fração do espaço disponível no container do grid.
+            </p>
+        </div>
+        <div>
+            <h2>e) O que é a notação repeat?</h2>
+            <p>
+                A notação Repeat tem como parâmetro um track listing, sendo assim você pode usá-lo para criar um padrão
+                de repetição de tracks. Neste exemplo meu grid terá 10 tracks, uma trilha de 1fr seguida por uma trilha
+                de 2fr.
+            </p>
+        </div>
+        <div>
+            <h2>f) O que são as linhas do Grid?</h2>
+            <p>
+                um dos conjuntos define colunas e outro linhas. Dentro de um grid, respeitando-se a configuração criada
+                pelas suas linhas, pode-se inserir elementos da marcação.
+            </p>
+        </div>
+        <div>
+            <h2>g) O que é uma célula no Grid?</h2>
+            <p>
+                Uma célula de grid é a menor unidade em um grid. Conceitualmente é como se fosse uma célula de tabela.
+                Como vimos em nossos exemplos anteriores, uma vez que o grid é definido como o pai os itens filhos serão
+                organizados cada um em uma célula do grid definido.
+            </p>
+        </div>
+        <div>
+            <h2>h) O que são áreas do Grid?</h2>
+            <p>
+                Itens podem se espalhar por uma ou mais células ambas entre linhas ou colunas, e isto cria uma área de
+                grid. Áreas de grid devem ser retangulares.
+            </p>
+        </div>
+
+
+    </div>
+</body>
+
+</html>

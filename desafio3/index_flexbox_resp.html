@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<style>
+    * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+    }
+
+    nav {
+        display: flex;
+        justify-content: space-between;
+
+    }
+
+    .menu {
+        display: flex;
+        column-gap: 15px;
+    }
+
+    .link {
+        display: none;
+    }
+
+    @media (max-width: 600px) {
+        .menu {
+            display: none;
+        }
+
+        .link {
+            display: block;
+        }
+
+    }
+
+    .menu-mobile {
+        display: none;
+    }
+
+    .active {
+        display: block;
+    }
+</style>
+
+<body>
+    <nav>
+        <div class="logo">Logo</div>
+        <a class="link" href="#"><img src="menu.png" alt=""></a>
+        <div class="menu">
+            <div>Menu 1</div>
+            <div>Menu 2</div>
+            <div>Menu 3</div>
+            <div>Menu 4</div>
+        </div>
+        <ul class="menu-mobile">
+            <li>Menu1</li>
+            <li>Menu2</li>
+            <li>Menu3</li>
+            <li>Menu4</li>
+        </ul>
+
+    </nav>
+</body>
+<script>
+    document.querySelector('img').addEventListener("click", () => {
+        document.querySelector('.menu-mobile').classList.toggle("active")
+    })
+</script>
+
+</html>
