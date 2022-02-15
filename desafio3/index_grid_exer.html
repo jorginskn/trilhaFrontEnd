@@ -5,59 +5,51 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Grid</title>
 </head>
 <style>
     * {
         margin: 0;
         padding: 0;
         box-sizing: border-box;
-        background: #7159c1;
+        color: #fff;
+        font-size: 36px;
     }
 
     .container {
         display: grid;
-        grid-template-columns: 3fr 1fr;
-        grid-template-rows: 20vh 70vh 10vh;
+        grid-template-columns: 80% 20%;
+        grid-template-rows: 10vh 20vh 60vh 10vh;
         grid-template-areas: "header header"
             "nav nav"
             "section aside"
             "footer footer";
-
-
-
     }
 
     header {
-        background: yellow;
+        background: rgb(10, 10, 10);
         grid-area: header;
-        
-
 
     }
 
     nav {
         background: blue;
-        grid-column: 1/3;
-         
+
         grid-area: nav;
-
-
     }
 
     section {
-        background-color: aquamarine;
-        height: 300px;
+        background-color: rgb(148, 255, 127);
         grid-area: section;
-
     }
-
 
     aside {
         background: green;
         grid-area: aside;
-        grid-column: 3/4;
-        grid-row: 3/4;
+    }
+
+    article {
+        background-color: crimson;
     }
 
     footer {
@@ -70,21 +62,21 @@
 <body>
     <div class="container">
         <header>
-
+            Header
         </header>
         <nav>
-
+            Nav
         </nav>
         <section>
             <article>
-                
+                Article
             </article>
         </section>
         <aside>
-
+            Aside
         </aside>
         <footer>
-
+            footer
         </footer>
     </div>
 
