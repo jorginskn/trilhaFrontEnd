@@ -84,7 +84,7 @@
     III. Quais módulos são necessários para criar os formulários reativos?
     ReactiveFormsModule formGroup no formulário formControlName 
     IV. Quais classes base temos para formulários reativos no Angular?
-    V.   Como é feita a configuração de um formulário reativo usando separadamente as classes base? 
+    V.   Como é feita a configuração de um formulário reativo usando separadamente as classes base? Criar a classe que servira como base ng g class clientes/shared/cliente
     VI.Como se dá o fluxo de informações entre o formulário reativo e o componente em Angular?é o @Input() e @Output(), que provem a entrada e saída de dados respectivamente.' 
     VII. Como é feita a captura dos dados de um formulário reativo e apresentado na tela?@Input() e @Output()
     VIII. Explique  para  o  que  serve  a  validação  de  um  formulário  e  como  isto  pode  ser  apresentado para o usuário?FormGroup e FormControl
