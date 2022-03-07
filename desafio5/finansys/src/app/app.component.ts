@@ -1,4 +1,5 @@
 import { Component } from '@angular/core';
+ import {FormControl} from '@angular/FormControl'
 
 @Component({
   selector: 'app-root',
@@ -11,4 +12,5 @@ export class AppComponent {
   data = "02/03/2022"
   turma= "desconhecida"
   title = 'finansys';
+   
 }
