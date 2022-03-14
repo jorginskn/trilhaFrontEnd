@@ -9,7 +9,7 @@
 
 ### d) Com suas palavras, responda às seguintes perguntas referentes ao Angular:
      I. De forma resumida o que é o Angular? Angular é um framework front-end que te da as ferramentas para construir suas aplicações
-    II. Qual a relação do Angular com SPA? O Angular é o framework SPA mais completo que existe já que o Angular foi feito para esse tipo de aplicação.
+    II. Qual a relação do Angular com SPA? O Angular é o framework SPA mais completo que existe já que o Angular foi feito para esse tipo de aplicação .
     III. Em uma aplicação básica, o que é essencial ter?Módulos, componentes , templates, metadata , DataBiding, diretivas, serviços, injeção de dependecias
     IV. O que é o Angular CLI e qual a sua importância? Dê exemplos: É uma ferramenta de   Interface que usamos para inicializar, desenvolver , estruturar aplicativos diretamente de um shell de comando.Angular CLI cria toda a estrutura necessária para o projeto, com os arquivos, diretorios e scripts necessários.
     V.   Para que serve o arquivo angular.json? Fornece padrões de configuração  do espaço de trabalho e específicos do projeto.
@@ -24,6 +24,7 @@
 
 ### f) A respeito de Bindings, responda
     I. O que é Property Binding e quais as suas aplicações?
+
     Ajuda a  definir valores para propriedades de elementos ou diretivas HTMLUse a associação de propriedade para fazer coisas como a funcionalidade do botão de alternância, definir caminhos e compartilhar valores entre componentes.
     II. Qual é o passo a passo do fluxo das informações com Property Binding?Do componente para uma propriedade do elemento de destino .
     III. Dê um exemplo de Property Binding e explique o seu funcionamento.
@@ -67,7 +68,7 @@
 
      VII. Como é feita a captura dos dados de um formulário reativo e apresentado na tela?  Atráves do valueChanges observável onde você pode escutar as mudanças  no valor. Para exibir na tela usamos interpolação no modelo.
 
-     VIII. Explique  para  o  que  serve  a  validação  de  um  formulário  e  como  isto  pode  ser  apresentado para o usuário?Verificando o campos obrigatrios  ou consultando uma API externa Garantir que a entrada do  usuário esteja completa e correta. Tornando um campo obrigatoriodefinem validadores personalizados como funções que recebem um controle para validar.
+     VIII. Explique  para  o  que  serve  a  validação  de  um  formulário  e  como  isto  pode  ser  apresentado para o usuário? Verificando o campos obrigatrios  ou consultando uma API externa Garantir que a entrada do  usuário esteja completa e correta. Tornando um campo obrigatorio definem validadores personalizados como funções que recebem um controle para validar.
 
 
     
