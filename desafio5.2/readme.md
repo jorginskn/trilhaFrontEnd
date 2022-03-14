@@ -1,0 +1,10 @@
+### a) A respeito de componente, responda:
+    I. O que é um componente em aplicações Angular?
+    Os componentes são o principal bloco de construção para aplicativos Angular.Componente tem haver com o template o que o usuário ver;
+    II. Do que um componente é composto?Um modelo HTML que declara o que é renderizado na página, Uma classe Typescript que define o comportamento, Um seletor CSS que define como o componente é usado em um modelo, Opcionalmente, estilos CSS aplicados ao modelo
+    III. Qual é o comando utilizado para criar um componente utilizando Angular CLI?
+    ng g c my-new component    ng vem de ( angular) g de generate   c de componente  e o nome do componente
+    IV. Qual a importância da reutilização de componentes? O aumento de qualidade é uma consequência da reutilização de componentes que foram previamente documentados, testados e aprovados. O aumento da produtividade é resultado de uma redução no tempo de desenvolvimento, evitando a reconstrução de partes do sistema que já existem.
+    V.   Qual a funcionalidade do selector no exemplo abaixo? Este seletor instrui o Angular a instanciar este componente sempre que a tag <app-component-overview> aparecer  em um template HTML.
+    VI. Explique a funcionalidade de templateUrl e template nos exemplos abaixo equando devemos utilizar cada uma delas. Informar ao angular como renderizar o componente em seu aplicativo. Para definir um modelo como um arquivo externo, adicione uma templateUrl propriedade ao decorador.@Component.No exemplo 1  ele está referenciando um arquivo externo  utilizando o templateURL. Para definir um modelo dentro do componente, adicione uma template propriedade ao decorador que contém o HTML que você deseja usar.@Component No Exemplo 2 ele está adicionando um template dentro do componente que contém o html que deseja utilizar.
+    VII. Explique a funcionalidade de styleUrls e styles nos exemplos abaixo equando devemos utilizar cada um deles. O StyleUrls serve para declarar os estilos de um componente em um arquivo separado.Para declarar os estilos dentro de um componente usa-se styles propriedade juntamente com os estilos que deseja usar
